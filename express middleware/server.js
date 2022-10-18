@@ -16,8 +16,6 @@ function errorHandler(err, req, res, next) {
   next();
 }
 
-
-
 app.use(middleware1);
 
 app.get("/", middlewar2, (req, res) => {
